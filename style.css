@@ -367,6 +367,19 @@ footer ul a:hover {
   color: var(--color-white);
 }
 
+.btn.sm{
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+}
+
+.btn.danger{
+  background: var(--color-red);
+}
+
+.btn:hover{
+  background: var(--color-white);
+  color: var(--color-bg);
+}
 /* ===========single post========== */
 .singlepost {
   margin: 6rem 0 2rem;
@@ -468,7 +481,18 @@ select {
   color: var(--color-primary);
 }
 
+/* ===========Manage dashboard============= */
 
+.dashboard {
+  margin-top: 6rem;
+}
+
+.dashboard__container{
+  display: grid;
+  grid-template-columns: 14rem auto;
+  gap: 1rem;
+  background: var(--color-gray-900);
+}
 
 
 
