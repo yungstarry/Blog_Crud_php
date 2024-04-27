@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Multipage Blog Website</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -46,11 +46,35 @@
 
     <!-- end of nav -->
 
-<section class="empty__page">
-  <h1>About Page</h1>
+ 
+
+<section class="singlepost">
+    <div class="container singlepost__container">
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, id.</h2>
+         <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar3.jpg" alt="" />
+              </div>
+                <div class="post__author-info">
+                  <h5>By: John Mills</h5>
+                  <small>June 13, 2022 -10:34</small>
+                </div>
+            </div>
+
+            <div class="single__thumbnail">
+                <img src="./images/blog33.jpg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem soluta qui ex atque debitis. Enim dolores aut, tempora totam dolore eius velit necessitatibus debitis quibusdam ex. Iste, ad adipisci?</p>
+        </div>
 </section>
 
-    
+   <!-- ======end of single post===== -->
+
     <footer>
       <div class="footer__socials">
         <a href="#" target="_blank" rel="noopener noreferrer"

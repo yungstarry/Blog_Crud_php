@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Multipage Blog Website</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -21,20 +21,20 @@
   <body>
     <nav>
       <div class="container nav__container">
-        <a href="index.html" class="nav__logo">Adordev</a>
+        <a href="index.php" class="nav__logo">Adordev</a>
         <ul class="nav__items">
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <!-- <li><a href="signin.html">Sign-In</a></li> -->
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <!-- <li><a href="signin.php">Sign-In</a></li> -->
           <li class="nav__profile">
             <div class="avatar">
               <img src="./images/avatar1.jpg" alt="" />
             </div>
             <ul>
-              <li><a href="dashboard.html">Dashboard</a></li>
-              <li><a href="logout.html"> Log Out</a></li>
+              <li><a href="dashboard.php">Dashboard</a></li>
+              <li><a href="logout.php"> Log Out</a></li>
             </ul>
           </li>
         </ul>
@@ -46,40 +46,15 @@
 
     <!-- end of nav -->
 
-    <section class="featured">
-      <div class="container featured__container">
-        <div class="post__thumbnail">
-          <img src="./images/blog1.jpg" alt="" />
-        </div>
-        <div class="post__info">
-          <a href="category-posts.html" class="category__button">Wild Life</a>
-          <h2 class="post__title">
-            <a href="post.html"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-              quod.</a
-            >
-          </h2>
-          <p class="post__body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            mollitia minus est cum perferendis a laudantium voluptates in
-            ratione veritatis quas aspernatur vel possimus facere, quidem
-            inventore, consequatur assumenda harum!
-          </p>
+    
+<header class="category__title">
+    <h2>Category Title</h2>
+</header>
 
-          <div class="post__author">
-            <div class="post__author-avatar">
-              <img src="./images//avatar2.jpg" alt="" />
-            </div>
-            <div class="post__author-info">
-              <h5>By: Shola Akinade</h5>
-              <small>June, 22, 2024 - 07:33</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- =====end of features -->
+
+<!-- ====end of category title -->
+
 
     <section class="posts">
       <div class="container posts__container">
