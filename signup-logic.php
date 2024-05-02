@@ -60,6 +60,9 @@ if (isset($_POST['submit'])) {
                         //upload avataer
 
                         move_uploaded_file($avatar_tmp_name, $avatar_destination_path);
+
+
+
                     } else{
                         $_SESSION['signup'] = 'File size too big. Should be less than 1mb';
                     }
@@ -78,7 +81,7 @@ if (isset($_POST['submit'])) {
         die();
     } else{
         //insert new user into table
-        $insert_user_query = "INSERT INTO users(firstname, lastname, username, email, password, avatar, is_admin ) VALUES('$firstname', '$lastname', '$username',  '$email', '$hashed_password', '$avatar', 0 )";
+        $insert_user_query = "INSERT INTO users(firstname, lastname, username, email, password, avatar, is_admin ) VALUES('$firstname', '$lastname', '$username',  '$email', '$hashed_password', '$avatar_name', 0 )";
 
         $insert_user_result = mysqli_query($connection, $insert_user_query);
 

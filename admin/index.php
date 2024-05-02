@@ -21,6 +21,7 @@ include 'partials/header.php';
             <h5>Manage Post</h5>
           </a>
         </li>
+         <?php if(isset($_SESSION["user_is_admin"])):  ?>
         <li>
           <a href="add-user.php" class="active"><i class="uil uil-user-plus"></i>
             <h5>Add User</h5>
@@ -41,6 +42,10 @@ include 'partials/header.php';
             <h5>Manage Categories</h5>
           </a>
         </li>
+        <?php 
+        endif
+        ?>
+
       </ul>
     </aside>
     <main>
